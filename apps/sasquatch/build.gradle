@@ -9,7 +9,7 @@ android {
     flavorDimensions "dependency", "pushLibrary"
 
     defaultConfig {
-        minSdkVersion 28
+        minSdkVersion 26
         externalNativeBuild {
             ndkBuild {
                 arguments "NDK_APPLICATION_MK=Application.mk", "V=1"
